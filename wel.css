@@ -1,0 +1,46 @@
+@media(max-width: 1000px){
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.image{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(erik.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#q{
+  text-align: center;
+  margin: 22% auto;
+font-weight: 1000;
+font-size: 40px;
+color: white;
+}
+}
+@media(min-width:1000px){
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  .image{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(jasper.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  #q{
+    text-align: center;
+    margin: 22% auto;
+  font-weight: 1000;
+  font-size: 40px;
+  color: white;
+  }
+}
