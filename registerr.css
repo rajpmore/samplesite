@@ -145,54 +145,52 @@ align-items: center;
   *{
     margin:0;
   }
-.image{
-  width:100%;
-  height:100%;
-  background-position: center;
-  position: absolute;
-  background-image:linear-gradient(rgba(0 ,0, 0,0.5),rgba(0 ,0, 0,0.5)) ,url(40779.jpg);
-  background-size:cover ;
-  overflow: hidden;
-}
-.menu-bar{
-  background: transparent;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.menu-bar ul{
-  display:inline-flex;
-  list-style: none;
+  body{
+    font-family: Arial;
+  }
+
+  .image{
+    width:100%;
+    height:100%;
+    background-position: center;
+    position: absolute;
+    background-image:linear-gradient(rgba(0 ,0, 0,0.5),rgba(0 ,0, 0,0.5)) ,url(roberto.jpg);
+    background-size:cover ;
+    overflow: hidden;
+  }
+  .menu-bar{
+    background: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+
+  }
+  .menu-bar ul li{
+    align-items: center;
+    justify-content: center;
+    margin: 6% auto;
+    padding: 0;
+    font-size: 22px;
+  }
+  .menu-bar ul li a{
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
   color: white;
-  align-items: center;
-  justify-content: center;
-  padding-left: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  }
 
-}
-.menu-bar ul li{
-  align-items: center;
-  justify-content: center;
-  margin: 4% auto;
-  padding: 0;
-  font-size: 22px;
-}
-.menu-bar ul li a{
-text-decoration: none;
-padding-left: 50px;
-padding-right: 50px;
-color: white;
-font-family: sans-serif;
-font-weight: 500;
-text-transform: uppercase;
-}
-.menu-bar ul li:hover{
-background: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
-  border-radius: 20px;
-padding-top: 5px;
-padding-bottom: 5px;
-
-}
 .sub-menu{
   display:none;
 }
@@ -214,7 +212,7 @@ display:block;
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu ul li a:hover{
-  color:red;
+  color:orange;
 }
 .form-box{
   width: 20vw;
@@ -226,20 +224,14 @@ display:block;
 
 
 }
-.up{
-  width: 80px;
-  height: 40px;
-background: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
-margin:  auto;
-  border-radius: 30px;
-}
+
 .up h3{
 margin: 0;
 padding: 0;
 text-align: center;
 position:relative;
 top:20%;
-color: black;
+color: white;
 font-style: normal;
 font-family: sans-serif;
 }
@@ -278,7 +270,7 @@ span{
   margin: auto;
   border: 0;
   outline: none;
-  border-radius: 1.875rem;
+  border-radius: 1rem;
   background-color: #9dc5c3;
   background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
 }
