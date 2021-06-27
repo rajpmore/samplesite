@@ -3,7 +3,7 @@ function store(){
   localStorage.setItem('r6',r6.value);
 }
 function ey(){
-  window.open("newr.html");
+  window.open("index.html");
 }
 
 
