@@ -1,145 +1,161 @@
-@media(max-width: 1000px){
-  *{
-    margin:0;
+@media(max-width: 1000px) {
+  * {
+    margin: 0;
   }
-  .image{
-    width:100%;
-    height:100%;
+
+  .image {
+    width: 100%;
+    height: 100%;
     background-position: center;
     position: absolute;
     background-image: url(serjan.jpg);
-    background-size:cover ;
+    background-size: cover;
     overflow: hidden;
   }
-  .menu-bar{
+
+  .menu-bar {
     background: transparent;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .menu-bar ul{
-    display:inline-flex;
+
+  .menu-bar ul {
+    display: inline-flex;
     list-style: none;
     color: white;
     align-items: center;
     justify-content: center;
     padding-left: 0;
-
   }
-  .menu-bar ul li{
+
+  .menu-bar ul li {
     align-items: center;
     justify-content: center;
     margin: 8% auto;
     padding: 0;
   }
-  .menu-bar ul li a{
-  text-decoration: none;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: white;
-  font-weight: 900;
-  font-size: 35px;
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+      font-family: Arial;
   }
-  .menu-bar ul li:hover{
-  background: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
-    border-radius: 20px;
+
+  .sub-menu {
+    display: none;
   }
-  .sub-menu{
-    display:none;
-  }
-  .menu-bar ul li:hover .sub-menu{
+
+  .menu-bar ul li:hover .sub-menu {
     display: block;
     position: absolute;
     background: transparent;
     padding-left: 5px;
   }
-  .menu-bar ul li:hover .sub-menu ul{
-  display:block;
+
+  .menu-bar ul li:hover .sub-menu ul {
+    display: block;
   }
-  .menu-bar ul li:hover .sub-menu ul li{
-    width:100%;
+
+  .menu-bar ul li:hover .sub-menu ul li {
+    width: 100%;
     border-bottom: 0.063rem dotted white;
     background: transparent;
   }
-  .menu-bar ul li:hover .sub-menu ul li:last-child{
+
+  .menu-bar ul li:hover .sub-menu ul li:last-child {
     border-bottom: none;
   }
-  .menu-bar ul li:hover .sub-menu ul li a:hover{
-    color:red;
+
+  .menu-bar ul li:hover .sub-menu ul li a:hover {
+    color: orange;
   }
-  .form-box{
-    width: 60vw;
-    height:70vh;
-    position:relative;
-    background: transparent;
-    margin: 6% auto;
-    padding: 1rem;
-    top:10%;
-justify-content: center;
-align-items: center;
-  }
-  .up{
-    width: 150px;
-    height: 40px;
-  background: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
-    margin: 6% auto;
-    border-radius: 30px;
-  }
-  .up h3{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  position:relative;
-  top:10%;
-  color: black;
-  font-style: normal;
-  font-family:serif;
-  font-size: 30px;
-  }
-  .input-group{
-    margin:20% auto;
+
+  .form-box {
+    width: 100%;
+    height: auto;
     position: absolute;
-    width:100%;
+    text-align: center;
+    background: transparent;
+    margin-top: 50px;
+    top: 20%;
+    justify-content: center;
+    align-items: center;
   }
-  .input-field{
-    width:100%;
-  padding: 0.625rem 0;
-  margin: 2% auto;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 0.063rem solid white;
-  outline: none;
-  background: transparent;
-  color: white;
 
+  .up h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 50px;
+  }
 
+  .input-group {
+    margin: 20% auto;
+    position: relative;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
   }
-  .check-box{
-    margin: 1.875rem 0.625rem 1.875rem 0;
+
+  .input-field {
+    width: 100%;
+    height: 50px;
+    padding: 0.625rem 0;
+    margin: 2% auto;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.063rem solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 30px;
   }
-  span{
-    font-size: 0.75rem;
+
+  .check-box {
+    margin: 2rem 0.625rem 1.875rem 0;
+    margin-left: 1px;
+    width: 30px;
+    height: 30px;
+  }
+
+  span {
+    font-size: 2rem;
     position: relative;
     color: #777;
   }
-  .submit-btn{
-    width:auto;
-    padding:0.625rem 1.875rem;
+
+  .submit-btn {
+    width: 40%;
+    height: 90px;
+    padding: 0.675rem 1.875rem;
     cursor: pointer;
     display: block;
     margin: auto;
     border: 0;
+    font-size: 40px;
     outline: none;
-    border-radius: 1.875rem;
+    font-weight: bold;
+    border-radius: 1rem;
     background-color: #9dc5c3;
     background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
   }
-  .submit-btn:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
 
+  .submit-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 @media(min-width:1000px){
   *{
